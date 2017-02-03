@@ -56,3 +56,9 @@ let g:neocomplcache_enable_at_startup = 1
 
 " Always show the status line
 set laststatus=2
+
+" Set the system clipboard on vim
+set clipboard=unnamed
+
+" Keep vim files on vim folder
+set viminfo='100,h,n~/.vim/viminfo'

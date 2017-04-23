@@ -62,3 +62,6 @@ set clipboard=unnamed
 
 " Keep vim files on vim folder
 set viminfo='100,h,n~/.vim/viminfo'
+
+set encoding=utf-8
+set fileencoding=utf-8

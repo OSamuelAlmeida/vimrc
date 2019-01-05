@@ -50,6 +50,7 @@ set undolevels=1000 " More undos
 set title " Change terminal title
 set visualbell " Don't beep
 set noerrorbells " Don't beep
+set scrolloff=5
 
 " Enable NeoComplCache
 let g:neocomplcache_enable_at_startup = 1

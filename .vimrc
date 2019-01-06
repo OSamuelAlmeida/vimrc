@@ -19,11 +19,11 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'dikiaap/minimalist'
 Plugin 'scrooloose/nerdtree'
-Plugin 'Shougo/neocomplcache'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'othree/html5.vim'
+Plugin 'valloric/youcompleteme'
 call vundle#end()
 
 filetype plugin indent on

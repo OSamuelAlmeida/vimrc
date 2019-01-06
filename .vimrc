@@ -24,6 +24,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'othree/html5.vim'
 Plugin 'valloric/youcompleteme'
+Plugin 'KabbAmine/vCoolor.vim'
+Plugin 'git://github.com/chrisbra/Colorizer.git'
 call vundle#end()
 
 filetype plugin indent on
@@ -64,5 +66,10 @@ set clipboard=unnamed
 " Keep vim files on vim folder
 set viminfo='100,h,n~/.vim/viminfo'
 
+" Change file default encoding
 set encoding=utf-8
 set fileencoding=utf-8
+
+" Enable color highlighting
+let g:colorizer_auto_filetype='css,html'
+

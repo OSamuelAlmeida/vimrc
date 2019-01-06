@@ -26,6 +26,7 @@ Plugin 'othree/html5.vim'
 Plugin 'valloric/youcompleteme'
 Plugin 'KabbAmine/vCoolor.vim'
 Plugin 'git://github.com/chrisbra/Colorizer.git'
+Plugin 'jiangmiao/auto-pairs'
 call vundle#end()
 
 filetype plugin indent on

@@ -81,6 +81,11 @@ let g:colorizer_auto_filetype='css,html'
 " Enable powerline fonts
 let g:airline_powerline_fonts=1
 
+" Filetype specific changes
+
+" Typescript
+autocmd FileType typescript setlocal shiftwidth=2 tabstop=2 softtabstop=2
+
 " Maps
 
 " NERDTree maps
@@ -89,3 +94,5 @@ map <F2> :NERDTreeFind<CR>
 
 " Terminal
 map <F3> :terminal<CR>
+
+

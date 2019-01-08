@@ -72,11 +72,20 @@ set viminfo='100,h,n~/.vim/viminfo'
 set encoding=utf-8
 set fileencoding=utf-8
 
+" All windows splits to the bottom
+set splitbelow
+
 " Enable color highlighting
 let g:colorizer_auto_filetype='css,html'
 
+" Enable powerline fonts
 let g:airline_powerline_fonts=1
 
+" Maps
+
+" NERDTree maps
 map <C-p> :NERDTreeToggle<CR>
 map <F2> :NERDTreeFind<CR>
 
+" Terminal
+map <F3> :terminal<CR>

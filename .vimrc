@@ -75,3 +75,4 @@ set fileencoding=utf-8
 " Enable color highlighting
 let g:colorizer_auto_filetype='css,html'
 
+let g:airline_powerline_fonts=1

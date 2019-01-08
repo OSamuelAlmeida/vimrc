@@ -29,6 +29,7 @@ Plugin 'git://github.com/chrisbra/Colorizer.git'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'alvan/vim-closetag'
+Plugin 'cakebaker/scss-syntax.vim'
 call vundle#end()
 
 filetype plugin indent on

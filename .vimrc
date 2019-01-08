@@ -77,4 +77,4 @@ let g:colorizer_auto_filetype='css,html'
 
 let g:airline_powerline_fonts=1
 
-map <C-p> :NERDTreeToggle<CR>
+map <C-p> :NERDTreeFind<CR>

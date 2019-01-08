@@ -76,3 +76,5 @@ set fileencoding=utf-8
 let g:colorizer_auto_filetype='css,html'
 
 let g:airline_powerline_fonts=1
+
+map <C-p> :NERDTreeToggle<CR>

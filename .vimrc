@@ -97,4 +97,6 @@ map <F2> :NERDTreeFind<CR>
 " Terminal
 map <F3> :terminal<CR>
 
+" VCoolor
+let g:vcoolor_map = '<F4>'
 

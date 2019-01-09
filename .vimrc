@@ -30,6 +30,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'alvan/vim-closetag'
 Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'https://github.com/elzr/vim-json'
 call vundle#end()
 
 filetype plugin indent on
